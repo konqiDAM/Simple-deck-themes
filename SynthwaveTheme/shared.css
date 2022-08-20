@@ -1,8 +1,9 @@
 :root {
-	--KBBackgroundColor: #3c1f32b5 !important;
-	--KBSelectedBackgroundColor: #205a84d1 !important;
-	--KBModifierBackgroundColor: #2e2157d1 !important;
-	--KBModifierForegroundColor: #FFFFFF !important;
+	--amountTransparency: 0.75;
+	--KBBackgroundColor: rgba(60, 31, 50, var(--amountTransparency));
+	--KBSelectedBackgroundColor: rgba(32, 90, 132, 1);
+	--KBModifierBackgroundColor: rgba(46, 33, 87, var(--amountTransparencyAux));
+	--KBModifierForegroundColor: #FFFFFF;
 }
 
 .DefaultTheme {
@@ -31,6 +32,7 @@
 	--key-spacer-background-color: transparent;
 	--key-extendedkey-background-color: var(--KBModifierBackgroundColor);
 	--key-extendedkey-color: var(--KBModifierForegroundColor);
+	--key-focused-color: #C1FFB9;
 }
 
 .virtualkeyboard_Keyboard_45rH7 {

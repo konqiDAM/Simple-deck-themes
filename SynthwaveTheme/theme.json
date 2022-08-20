@@ -1,11 +1,73 @@
 {
-    "name": "Animated Synthwave",
-    "version": "v1.0",
-    "author": "Konqi",
-    "target": "Keyboard",
-    "manifest_version": 2,
-    "description": "Animated synthwave keyboard ",
-    "inject": {
-        "shared.css": ["SP"]
-    }
+	"name": "Animated Synthwave",
+	"version": "v1.0",
+	"author": "Konqi",
+	"target": "Keyboard",
+	"manifest_version": 2,
+	"description": "Animated synthwave keyboard",
+	"inject": {
+		"shared.css": ["SP"]
+	},
+	"patches": {
+		"Letters transparency": {
+			"default": "75",
+			"type": "slider",
+			"values": {
+				"0": {
+					"transparencyMain/0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"15": {
+					"transparencyMain/15.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"30": {
+					"transparencyMain/30.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"45": {
+					"transparencyMain/45.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"60": {
+					"transparencyMain/60.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"75": {
+					"transparencyMain/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"90": {
+					"transparencyMain/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"100": {
+					"transparencyMain/100.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+	"Alt keys transparency": {
+			"default": "75",
+			"type": "slider",
+			"values": {
+				"0": {
+					"transparencyAux/0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"15": {
+					"transparencyAux/15.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"30": {
+					"transparencyAux/30.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"45": {
+					"transparencyAux/45.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"60": {
+					"transparencyAux/60.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"75": {
+					"transparencyAux/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"90": {
+					"transparencyAux/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"100": {
+					"transparencyAux/100.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		}
+	}
 }
