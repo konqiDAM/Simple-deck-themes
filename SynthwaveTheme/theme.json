@@ -1,0 +1,11 @@
+{
+    "name": "Animated Synthwave",
+    "version": "v1.0",
+    "author": "Konqi",
+    "target": "Keyboard",
+    "manifest_version": 2,
+    "description": "Animated synthwave keyboard ",
+    "inject": {
+        "shared.css": ["SP"]
+    }
+}

@@ -1,0 +1,40 @@
+:root {
+	--KBBackgroundColor: #3c1f32b5 !important;
+	--KBSelectedBackgroundColor: #205a84d1 !important;
+	--KBModifierBackgroundColor: #2e2157d1 !important;
+	--KBModifierForegroundColor: #FFFFFF !important;
+}
+
+.DefaultTheme {
+	--key-background-color: var(--KBBackgroundColor);
+	--key-pointer-background-color: var(--KBBackgroundColor);
+	--key-focused-background-color: var(--KBSelectedBackgroundColor);
+	--key-toggleon-background-color: var(--KBSelectedBackgroundColor);
+	--key-emoji-focused-background-color: var(--KBSelectedBackgroundColor);
+	--key-emoji-category-highlight-background-color: var(--KBSelectedBackgroundColor);
+	--key-touched-background-color: var(--KBSelectedBackgroundColor);
+	--key-meta-color: var(--KBModifierForegroundColor);
+	--key-meta-background-color: var(--KBModifierBackgroundColor);
+	--key-tab-color: var(--KBModifierForegroundColor);
+	--key-tab-background-color: var(--KBModifierBackgroundColor);
+	--key-caps-color: var(--KBModifierForegroundColor);
+	--key-caps-background-color: var(--KBModifierBackgroundColor);
+	--key-shift-color: var(--KBModifierForegroundColor);
+	--key-shift-background-color: var(--KBModifierBackgroundColor);
+	--key-enter-color: var(--KBModifierForegroundColor);
+	--key-enter-background-color: var(--KBModifierBackgroundColor);
+	--key-enter-action-button-glyph-color: var(--KBGlyphColor);
+	--key-backspace-color: var(--KBModifierForegroundColor);
+	--key-backspace-background-color: var(--KBModifierBackgroundColor);
+	--key-spacebar-color: var(--KBModifierForegroundColor);
+	--key-spacebar-background-color: var(--KBModifierBackgroundColor);
+	--key-spacer-background-color: transparent;
+	--key-extendedkey-background-color: var(--KBModifierBackgroundColor);
+	--key-extendedkey-color: var(--KBModifierForegroundColor);
+}
+
+.virtualkeyboard_Keyboard_45rH7 {
+	background-image: url(https://i.postimg.cc/Ss6kcqMh/steam-keyboard.webp);	
+	background-size: cover;
+	background-position: center;
+}
