@@ -1,10 +1,10 @@
 {
-	"name": "Animated Synthwave",
-	"version": "v1.0",
+	"name": "Animated Synthwave backgrounds",
+	"version": "v2.0",
 	"author": "Konqi",
 	"target": "Keyboard",
 	"manifest_version": 2,
-	"description": "Animated synthwave keyboard",
+	"description": "Animated synthwave backgrounds for home, librarly and keyboard",
 	"inject": {
 		"shared.css": ["SP"]
 	},
