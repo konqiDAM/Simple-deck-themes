@@ -40,3 +40,17 @@
 	background-size: cover;
 	background-position: center;
 }
+
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+    background-image: url(https://i.postimg.cc/jq86YZ5P/Loop1.webp);
+    background-size: cover;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe 
+{
+    background-image: url(https://i.postimg.cc/XYW9whDM/Loop2.webp);
+    background-size: 100%;
+}
+.libraryassetimage_Container_1R9r2.gamepadhomerecentgames_RecentGamesBackground_1SRox, .appportrait_PortraitMessage_3gwMk, .basicgamecarousel_CarouselGameLabel_3CKji {
+    display: none !important;
+}

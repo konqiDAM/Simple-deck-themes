@@ -9,7 +9,7 @@
 		"shared.css": ["SP"]
 	},
 	"patches": {
-		"Letters transparency": {
+		"Keyboard primary letters transparency": {
 			"default": "75",
 			"type": "slider",
 			"values": {
@@ -39,7 +39,7 @@
 				}
 			}
 		},
-		"Alt keys transparency": {
+		"Keyboard secondary keys transparency": {
 			"default": "75",
 			"type": "slider",
 			"values": {
@@ -69,19 +69,65 @@
 				}
 			}
 		},
-		"Background Animation": {
+		"Keyboard background animation": {
 			"default": "Carwave",
 			"type": "dropdown",
 			"values": {
 				"Carwave": {},
 				"Sunywave": {
-					"background/sunywave.css": ["QuickAccess", "SP", "MainMenu"]
+					"keyboard/sunywave.css": ["QuickAccess", "SP", "MainMenu"]
 				},
 				"Planetwave": {
-					"background/planetwave.css": ["QuickAccess", "SP", "MainMenu"]
+					"keyboard/planetwave.css": ["QuickAccess", "SP", "MainMenu"]
 				},
 				"Matrixwave": {
-					"background/matrixwave.css": ["QuickAccess", "SP", "MainMenu"]
+					"keyboard/matrixwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Matrix": {
+					"keyboard/matrix.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"LoopingBall": {
+					"keyboard/loopingball.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Hellwave": {
+					"keyboard/hellwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Sheet": {
+					"keyboard/sheet.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Palmwave": {
+					"keyboard/palmwave.css": ["QuickAccess", "SP", "MainMenu"]
+				}
+			}
+		},
+		"Home background animation": {
+			"default": "LoopingBall",
+			"type": "dropdown",
+			"values": {
+				"LoopingBall": {},
+				"Hellwave": {
+					"background/hellwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Matrix": {
+					"background/matrix.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Islandwave": {
+					"background/islandwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Vaporwave": {
+					"background/vaporwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Car colorfull": {
+					"background/car2.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Car regular": {
+					"background/car.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Sheet": {
+					"background/sheet.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Palmwave": {
+					"background/palmwave.css": ["QuickAccess", "SP", "MainMenu"]
 				}
 			}
 		}
