@@ -117,10 +117,10 @@
 				"Vaporwave": {
 					"background/vaporwave.css": ["QuickAccess", "SP", "MainMenu"]
 				},
-				"Car colorfull": {
+				"Neon city": {
 					"background/car2.css": ["QuickAccess", "SP", "MainMenu"]
 				},
-				"Car regular": {
+				"City": {
 					"background/car.css": ["QuickAccess", "SP", "MainMenu"]
 				},
 				"Sheet": {
@@ -128,6 +128,49 @@
 				},
 				"Palmwave": {
 					"background/palmwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Car sunset": {
+					"background/car3.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Tesla ride": {
+					"background/car4.css": ["QuickAccess", "SP", "MainMenu"]
+				}
+			}
+		},
+		"Library background animation": {
+			"default": "Hellwave",
+			"type": "dropdown",
+			"values": {
+				"Hellwave": {},
+				"LoopingBall": {
+					"backgroundLibrary/loopingball.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Matrix": {
+					"backgroundLibrary/matrix.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Islandwave": {
+					"backgroundLibrary/islandwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Vaporwave": {
+					"backgroundLibrary/vaporwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Neon city": {
+					"backgroundLibrary/car2.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"City": {
+					"backgroundLibrary/car.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Sheet": {
+					"backgroundLibrary/sheet.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Palmwave": {
+					"backgroundLibrary/palmwave.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Car sunset": {
+					"backgroundLibrary/car3.css": ["QuickAccess", "SP", "MainMenu"]
+				},
+				"Tesla ride": {
+					"backgroundLibrary/car4.css": ["QuickAccess", "SP", "MainMenu"]
 				}
 			}
 		}
