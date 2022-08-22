@@ -1,5 +1,5 @@
 {
-	"name": "Custom keyboard",
+	"name": "Custom keyboard with transparency",
 	"version": "v1",
 	"author": "Konqi",
 	"target": "Keyboard",
@@ -10,7 +10,7 @@
 	},
 	"patches": {
 		"Keyboard primary letters transparency": {
-			"default": "75",
+			"default": "85",
 			"type": "slider",
 			"values": {
 				"0": {
@@ -49,7 +49,7 @@
 			}
 		},
 		"Keyboard alt keys transparency": {
-			"default": "75",
+			"default": "85",
 			"type": "slider",
 			"values": {
 				"0": {
@@ -88,7 +88,7 @@
 			}
 		},
 		"Absolute keyboard transparency": {
-			"default": "75",
+			"default": "90",
 			"type": "slider",
 			"values": {
 				"0": {
@@ -127,7 +127,7 @@
 			}
 		},
 		"Background transparency": {
-			"default": "75",
+			"default": "15",
 			"type": "slider",
 			"values": {
 				"0": {
@@ -165,7 +165,7 @@
 				}
 			}
 		},
-		"Amount primary keys RED": {
+		"Amount red primary keys": {
 			"default": "68",
 			"type": "dropdown",
 			"values": {
@@ -219,7 +219,7 @@
 				}
 			}
 		},
-		"Amount primary keys Green": {
+		"Amount green primary keys": {
 			"default": "34",
 			"type": "dropdown",
 			"values": {
@@ -273,7 +273,7 @@
 				}
 			}
 		},
-		"Amount primary keys Blue": {
+		"Amount blue primary keys": {
 			"default": "51",
 			"type": "dropdown",
 			"values": {
@@ -327,7 +327,7 @@
 				}
 			}
 		},
-		"Amount alt keys RED": {
+		"Amount red alt keys": {
 			"default": "51",
 			"type": "dropdown",
 			"values": {
@@ -381,7 +381,7 @@
 				}
 			}
 		},
-		"Amount alt keys Green": {
+		"Amount green alt keys ": {
 			"default": "34",
 			"type": "dropdown",
 			"values": {
@@ -435,7 +435,7 @@
 				}
 			}
 		},
-		"Amount alt keys Blue": {
+		"Amount blue alt keys": {
 			"default": "85",
 			"type": "dropdown",
 			"values": {
@@ -489,7 +489,7 @@
 				}
 			}
 		},
-		"Amount background RED": {
+		"Amount red background": {
 			"default": "153",
 			"type": "dropdown",
 			"values": {
@@ -543,7 +543,7 @@
 				}
 			}
 		},
-		"Amount background Green": {
+		"Amount green background": {
 			"default": "153",
 			"type": "dropdown",
 			"values": {
@@ -597,7 +597,7 @@
 				}
 			}
 		},
-		"Amount background Blue": {
+		"Amount blue background": {
 			"default": "34",
 			"type": "dropdown",
 			"values": {
@@ -650,6 +650,176 @@
 					"backgroundColor/blue_255.css": ["SP", "MainMenu", "QuickAccess"]
 				}
 			}
-		}
+		},
+		"Amount red selected key": {
+			"default": "34",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"selectedColor/red_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"selectedColor/red_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"selectedColor/red_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"selectedColor/red_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"selectedColor/red_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"selectedColor/red_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"selectedColor/red_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"selectedColor/red_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"selectedColor/red_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"selectedColor/red_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"selectedColor/red_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"selectedColor/red_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"selectedColor/red_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"selectedColor/red_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"selectedColor/red_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"selectedColor/red_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount green selected key": {
+			"default": "102",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"selectedColor/green_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"selectedColor/green_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"selectedColor/green_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"selectedColor/green_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"selectedColor/green_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"selectedColor/green_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"selectedColor/green_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"selectedColor/green_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"selectedColor/green_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"selectedColor/green_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"selectedColor/green_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"selectedColor/green_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"selectedColor/green_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"selectedColor/green_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"selectedColor/green_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"selectedColor/green_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount blue selected key": {
+			"default": "136",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"selectedColor/blue_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"selectedColor/blue_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"selectedColor/blue_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"selectedColor/blue_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"selectedColor/blue_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"selectedColor/blue_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"selectedColor/blue_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"selectedColor/blue_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"selectedColor/blue_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"selectedColor/blue_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"selectedColor/blue_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"selectedColor/blue_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"selectedColor/blue_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"selectedColor/blue_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"selectedColor/blue_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"selectedColor/blue_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Black Letters": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {"lettersColor/black.css": ["SP"]}
+            }
+        }
 	}
 }

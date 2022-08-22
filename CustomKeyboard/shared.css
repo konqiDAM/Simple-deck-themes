@@ -8,10 +8,13 @@
 	--amountBackgroundColorRed: 156;
 	--amountBackgroundColorGreen: 154;
 	--amountBackgroundColorBlue: 38;
+	--amountSelectedKeyColorRed: 32;
+	--amountSelectedKeyColorGreen: 90;
+	--amountSelectedKeyColorBlue: 132;
 	--amountTransparency: 0.75;
 	--amountTransparencyAux: 0.75;
 	--KBBackgroundColor: rgba(var(--amountPrimaryKeyColorRed), var(--amountPrimaryKeyColorGreen), var(--amountPrimaryKeyColorBlue), var(--amountTransparency));
-	--KBSelectedBackgroundColor: rgba(32, 90, 132, 1);
+	--KBSelectedBackgroundColor: rgba(var(--amountSelectedKeyColorRed), var(--amountSelectedKeyColorGreen), var(--amountSelectedKeyColorBlue), 1);
 	--KBModifierBackgroundColor: rgba(var(--amountSecondaryKeyColorRed), var(--amountSecondaryKeyColorGreen), var(--amountSecondaryKeyColorBlue), var(--amountTransparencyAux));
 	--KBModifierForegroundColor: #FFFFFF;
 	--keyboard-absolute-transparency: 0.95;
