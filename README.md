@@ -36,6 +36,5 @@ These themes are accessible through the theme DB inside the CssLoader: https://g
 
 ![image](https://user-images.githubusercontent.com/44301655/185991513-66de0b16-2319-4a11-9f8c-0db92d7c3e31.png)
 
-# 
-Credits: @DmbassEros for help in the initial CSS and synthwave animations. [Ian-Boraks](https://github.com/Ian-Boraks) for this guide and inspiration in his themes. [VRMAN128](https://github.com/vrman123) for the black letters selector and inspiration in his themes.
+## Credits: @DmbassEros for help in the initial CSS and synthwave animations. [Ian-Boraks](https://github.com/Ian-Boraks) for this guide and inspiration in his themes. [VRMAN128](https://github.com/vrman123) for the black letters selector and inspiration in his themes.
 
