@@ -1,0 +1,60 @@
+:root {
+	--amountPrimaryKeyColorRed: 60;
+	--amountPrimaryKeyColorGreen: 31;
+	--amountPrimaryKeyColorBlue: 50;
+	--amountSecondaryKeyColorRed: 46;
+	--amountSecondaryKeyColorGreen: 33;
+	--amountSecondaryKeyColorBlue: 87;
+	--amountBackgroundColorRed: 156;
+	--amountBackgroundColorGreen: 154;
+	--amountBackgroundColorBlue: 38;
+	--amountTransparency: 0.75;
+	--amountTransparencyAux: 0.75;
+	--KBBackgroundColor: rgba(var(--amountPrimaryKeyColorRed), var(--amountPrimaryKeyColorGreen), var(--amountPrimaryKeyColorBlue), var(--amountTransparency));
+	--KBSelectedBackgroundColor: rgba(32, 90, 132, 1);
+	--KBModifierBackgroundColor: rgba(var(--amountSecondaryKeyColorRed), var(--amountSecondaryKeyColorGreen), var(--amountSecondaryKeyColorBlue), var(--amountTransparencyAux));
+	--KBModifierForegroundColor: #FFFFFF;
+	--keyboard-absolute-transparency: 0.95;
+	--background-keyboard-color: rgba(var(--amountBackgroundColorRed), var(--amountBackgroundColorGreen), var(--amountBackgroundColorBlue), var(--background-keyboard-transparency));
+	--background-keyboard-transparency: 90;
+
+}
+
+.DefaultTheme {
+	--key-background-color: var(--KBBackgroundColor);
+	--key-pointer-background-color: var(--KBBackgroundColor);
+	--key-focused-background-color: var(--KBSelectedBackgroundColor);
+	--key-toggleon-background-color: var(--KBSelectedBackgroundColor);
+	--key-emoji-focused-background-color: var(--KBSelectedBackgroundColor);
+	--key-emoji-category-highlight-background-color: var(--KBSelectedBackgroundColor);
+	--key-touched-background-color: var(--KBSelectedBackgroundColor);
+	--key-meta-color: var(--KBModifierForegroundColor);
+	--key-meta-background-color: var(--KBModifierBackgroundColor);
+	--key-tab-color: var(--KBModifierForegroundColor);
+	--key-tab-background-color: var(--KBModifierBackgroundColor);
+	--key-caps-color: var(--KBModifierForegroundColor);
+	--key-caps-background-color: var(--KBModifierBackgroundColor);
+	--key-shift-color: var(--KBModifierForegroundColor);
+	--key-shift-background-color: var(--KBModifierBackgroundColor);
+	--key-enter-color: var(--KBModifierForegroundColor);
+	--key-enter-background-color: var(--KBModifierBackgroundColor);
+	--key-enter-action-button-glyph-color: var(--KBGlyphColor);
+	--key-backspace-color: var(--KBModifierForegroundColor);
+	--key-backspace-background-color: var(--KBModifierBackgroundColor);
+	--key-spacebar-color: var(--KBModifierForegroundColor);
+	--key-spacebar-background-color: var(--KBModifierBackgroundColor);
+	--key-spacer-background-color: transparent;
+	--key-extendedkey-background-color: var(--KBModifierBackgroundColor);
+	--key-extendedkey-color: var(--KBModifierForegroundColor);
+	--key-focused-color: #C1FFB9;
+}
+
+.virtualkeyboard_VirtualKeyboardContainer_33MO2 {
+    width: 100%; 
+    position: absolute; 
+    bottom: 0; 
+	opacity: var(--keyboard-absolute-transparency);
+}
+.DefaultTheme.virtualkeyboard_Keyboard_45rH7 {
+    --background-color: var(--background-keyboard-color);
+}

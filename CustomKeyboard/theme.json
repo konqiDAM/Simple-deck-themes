@@ -1,0 +1,655 @@
+{
+	"name": "Custom keyboard",
+	"version": "v1",
+	"author": "Konqi",
+	"target": "Keyboard",
+	"manifest_version": 2,
+	"description": "Customizable keyboard with individual RGB color selectors",
+	"inject": {
+		"shared.css": ["SP"]
+	},
+	"patches": {
+		"Keyboard primary letters transparency": {
+			"default": "75",
+			"type": "slider",
+			"values": {
+				"0": {
+					"transparencyPrimary/0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"15": {
+					"transparencyPrimary/15.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"30": {
+					"transparencyPrimary/30.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"45": {
+					"transparencyPrimary/45.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"60": {
+					"transparencyPrimary/60.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"75": {
+					"transparencyPrimary/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"80": {
+					"transparencyPrimary/80.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"transparencyPrimary/85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"90": {
+					"transparencyPrimary/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"95": {
+					"transparencyPrimary/95.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"100": {
+					"transparencyPrimary/100.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Keyboard alt keys transparency": {
+			"default": "75",
+			"type": "slider",
+			"values": {
+				"0": {
+					"transparencySecondary/0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"15": {
+					"transparencySecondary/15.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"30": {
+					"transparencySecondary/30.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"45": {
+					"transparencySecondary/45.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"60": {
+					"transparencySecondary/60.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"75": {
+					"transparencySecondary/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"80": {
+					"transparencySecondary/80.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"transparencySecondary/85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"90": {
+					"transparencySecondary/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"95": {
+					"transparencySecondary/95.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"100": {
+					"transparencySecondary/100.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Absolute keyboard transparency": {
+			"default": "75",
+			"type": "slider",
+			"values": {
+				"0": {
+					"transparencyAbsolute/0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"15": {
+					"transparencyAbsolute/15.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"30": {
+					"transparencyAbsolute/30.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"45": {
+					"transparencyAbsolute/45.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"60": {
+					"transparencyAbsolute/60.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"75": {
+					"transparencyAbsolute/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"80": {
+					"transparencyAbsolute/80.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"transparencyAbsolute/85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"90": {
+					"transparencyAbsolute/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"95": {
+					"transparencyAbsolute/95.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"100": {
+					"transparencyAbsolute/100.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Background transparency": {
+			"default": "75",
+			"type": "slider",
+			"values": {
+				"0": {
+					"transparencyBackground/0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"15": {
+					"transparencyBackground/15.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"30": {
+					"transparencyBackground/30.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"45": {
+					"transparencyBackground/45.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"60": {
+					"transparencyBackground/60.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"75": {
+					"transparencyBackground/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"80": {
+					"transparencyBackground/80.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"transparencyBackground/85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"90": {
+					"transparencyBackground/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"95": {
+					"transparencyBackground/95.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"100": {
+					"transparencyBackground/100.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount primary keys RED": {
+			"default": "68",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"primaryColor/red_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"primaryColor/red_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"primaryColor/red_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"primaryColor/red_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"primaryColor/red_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"primaryColor/red_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"primaryColor/red_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"primaryColor/red_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"primaryColor/red_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"primaryColor/red_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"primaryColor/red_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"primaryColor/red_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"primaryColor/red_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"primaryColor/red_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"primaryColor/red_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"primaryColor/red_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount primary keys Green": {
+			"default": "34",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"primaryColor/green_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"primaryColor/green_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"primaryColor/green_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"primaryColor/green_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"primaryColor/green_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"primaryColor/green_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"primaryColor/green_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"primaryColor/green_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"primaryColor/green_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"primaryColor/green_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"primaryColor/green_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"primaryColor/green_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"primaryColor/green_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"primaryColor/green_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"primaryColor/green_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"primaryColor/green_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount primary keys Blue": {
+			"default": "51",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"primaryColor/blue_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"primaryColor/blue_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"primaryColor/blue_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"primaryColor/blue_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"primaryColor/blue_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"primaryColor/blue_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"primaryColor/blue_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"primaryColor/blue_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"primaryColor/blue_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"primaryColor/blue_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"primaryColor/blue_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"primaryColor/blue_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"primaryColor/blue_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"primaryColor/blue_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"primaryColor/blue_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"primaryColor/blue_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount alt keys RED": {
+			"default": "51",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"secondaryColor/red_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"secondaryColor/red_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"secondaryColor/red_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"secondaryColor/red_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"secondaryColor/red_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"secondaryColor/red_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"secondaryColor/red_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"secondaryColor/red_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"secondaryColor/red_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"secondaryColor/red_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"secondaryColor/red_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"secondaryColor/red_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"secondaryColor/red_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"secondaryColor/red_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"secondaryColor/red_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"secondaryColor/red_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount alt keys Green": {
+			"default": "34",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"secondaryColor/green_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"secondaryColor/green_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"secondaryColor/green_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"secondaryColor/green_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"secondaryColor/green_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"secondaryColor/green_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"secondaryColor/green_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"secondaryColor/green_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"secondaryColor/green_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"secondaryColor/green_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"secondaryColor/green_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"secondaryColor/green_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"secondaryColor/green_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"secondaryColor/green_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"secondaryColor/green_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"secondaryColor/green_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount alt keys Blue": {
+			"default": "85",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"secondaryColor/blue_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"secondaryColor/blue_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"secondaryColor/blue_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"secondaryColor/blue_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"secondaryColor/blue_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"secondaryColor/blue_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"secondaryColor/blue_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"secondaryColor/blue_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"secondaryColor/blue_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"secondaryColor/blue_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"secondaryColor/blue_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"secondaryColor/blue_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"secondaryColor/blue_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"secondaryColor/blue_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"secondaryColor/blue_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"secondaryColor/blue_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount background RED": {
+			"default": "153",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"backgroundColor/red_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"backgroundColor/red_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"backgroundColor/red_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"backgroundColor/red_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"backgroundColor/red_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"backgroundColor/red_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"backgroundColor/red_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"backgroundColor/red_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"backgroundColor/red_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"backgroundColor/red_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"backgroundColor/red_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"backgroundColor/red_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"backgroundColor/red_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"backgroundColor/red_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"backgroundColor/red_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"backgroundColor/red_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount background Green": {
+			"default": "153",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"backgroundColor/green_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"backgroundColor/green_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"backgroundColor/green_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"backgroundColor/green_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"backgroundColor/green_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"backgroundColor/green_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"backgroundColor/green_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"backgroundColor/green_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"backgroundColor/green_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"backgroundColor/green_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"backgroundColor/green_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"backgroundColor/green_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"backgroundColor/green_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"backgroundColor/green_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"backgroundColor/green_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"backgroundColor/green_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Amount background Blue": {
+			"default": "34",
+			"type": "dropdown",
+			"values": {
+				"0": {
+					"backgroundColor/blue_0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"17": {
+					"backgroundColor/blue_17.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"34": {
+					"backgroundColor/blue_34.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"51": {
+					"backgroundColor/blue_51.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"68": {
+					"backgroundColor/blue_68.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"backgroundColor/blue_85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"102": {
+					"backgroundColor/blue_102.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"119": {
+					"backgroundColor/blue_119.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"136": {
+					"backgroundColor/blue_136.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"153": {
+					"backgroundColor/blue_153.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"170": {
+					"backgroundColor/blue_170.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"187": {
+					"backgroundColor/blue_187.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"204": {
+					"backgroundColor/blue_204.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"221": {
+					"backgroundColor/blue_221.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"238": {
+					"backgroundColor/blue_238.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"255": {
+					"backgroundColor/blue_255.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		}
+	}
+}
