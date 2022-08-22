@@ -10,62 +10,119 @@
 	},
 	"patches": {
 		"Keyboard primary letters transparency": {
-			"default": "75",
+			"default": "85",
 			"type": "slider",
 			"values": {
 				"0": {
-					"transparencyMain/0.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencyPrimary/0.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"15": {
-					"transparencyMain/15.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencyPrimary/15.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"30": {
-					"transparencyMain/30.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencyPrimary/30.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"45": {
-					"transparencyMain/45.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencyPrimary/45.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"60": {
-					"transparencyMain/60.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencyPrimary/60.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"75": {
-					"transparencyMain/75.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencyPrimary/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"80": {
+					"transparencyPrimary/80.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"transparencyPrimary/85.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"90": {
-					"transparencyMain/90.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencyPrimary/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"95": {
+					"transparencyPrimary/95.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"100": {
-					"transparencyMain/100.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencyPrimary/100.css": ["SP", "MainMenu", "QuickAccess"]
 				}
 			}
 		},
-		"Keyboard secondary keys transparency": {
-			"default": "75",
+		"Keyboard alt keys transparency": {
+			"default": "85",
 			"type": "slider",
 			"values": {
 				"0": {
-					"transparencyAux/0.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencySecondary/0.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"15": {
-					"transparencyAux/15.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencySecondary/15.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"30": {
-					"transparencyAux/30.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencySecondary/30.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"45": {
-					"transparencyAux/45.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencySecondary/45.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"60": {
-					"transparencyAux/60.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencySecondary/60.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"75": {
-					"transparencyAux/75.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencySecondary/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"80": {
+					"transparencySecondary/80.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"transparencySecondary/85.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"90": {
-					"transparencyAux/90.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencySecondary/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"95": {
+					"transparencySecondary/95.css": ["SP", "MainMenu", "QuickAccess"]
 				},
 				"100": {
-					"transparencyAux/100.css": ["SP", "MainMenu", "QuickAccess"]
+					"transparencySecondary/100.css": ["SP", "MainMenu", "QuickAccess"]
+				}
+			}
+		},
+		"Keyboard transparency": {
+			"default": "100",
+			"type": "slider",
+			"values": {
+				"0": {
+					"transparencyAbsolute/0.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"15": {
+					"transparencyAbsolute/15.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"30": {
+					"transparencyAbsolute/30.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"45": {
+					"transparencyAbsolute/45.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"60": {
+					"transparencyAbsolute/60.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"75": {
+					"transparencyAbsolute/75.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"80": {
+					"transparencyAbsolute/80.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"85": {
+					"transparencyAbsolute/85.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"90": {
+					"transparencyAbsolute/90.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"95": {
+					"transparencyAbsolute/95.css": ["SP", "MainMenu", "QuickAccess"]
+				},
+				"100": {
+					"transparencyAbsolute/100.css": ["SP", "MainMenu", "QuickAccess"]
 				}
 			}
 		},
@@ -173,6 +230,22 @@
 					"backgroundLibrary/car4.css": ["QuickAccess", "SP", "MainMenu"]
 				}
 			}
-		}
+		},
+		"Black Letters": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {"lettersColor/black.css": ["SP"]}
+            }
+        },
+		"Position": {
+            "default": "Bottom",
+            "type": "checkbox",
+            "values": {
+                "Top": {},
+                "Bottom": {"position/bottom.css": ["SP"]}
+            }
+        }
 	}
 }

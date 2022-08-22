@@ -1,5 +1,8 @@
 :root {
 	--amountTransparency: 0.75;
+	--amountTransparencyAux: 0.75;
+	--keyboard-absolute-transparency: 0.6;
+	--background-keyboard-transparency: 0.45;
 	--KBBackgroundColor: rgba(60, 31, 50, var(--amountTransparency));
 	--KBSelectedBackgroundColor: rgba(32, 90, 132, 1);
 	--KBModifierBackgroundColor: rgba(46, 33, 87, var(--amountTransparencyAux));
@@ -39,6 +42,7 @@
 	background-image: url(https://i.postimg.cc/Ss6kcqMh/steam-keyboard.webp);	
 	background-size: cover;
 	background-position: center;
+	--background-color: var(--background-keyboard-color);
 }
 
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
@@ -58,4 +62,10 @@
 }
 .libraryassetimage_Container_1R9r2.gamepadhomerecentgames_RecentGamesBackground_1SRox, .appportrait_PortraitMessage_3gwMk, .basicgamecarousel_CarouselGameLabel_3CKji {
     display: none !important;
+}
+
+.virtualkeyboard_VirtualKeyboardContainer_33MO2 {
+    width: 100%; 
+    position: absolute; 
+	opacity: var(--keyboard-absolute-transparency);
 }
