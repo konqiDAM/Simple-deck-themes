@@ -820,6 +820,14 @@
                 "No": {},
                 "Yes": {"lettersColor/black.css": ["SP"]}
             }
+        },
+		"Position": {
+            "default": "Bottom",
+            "type": "checkbox",
+            "values": {
+                "Top": {},
+                "Bottom": {"position/bottom.css": ["SP"]}
+            }
         }
 	}
 }
