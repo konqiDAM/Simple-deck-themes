@@ -33,8 +33,11 @@ These themes are accessible through the theme DB inside the CssLoader: https://g
 
 ## Preview 
 ![image](https://user-images.githubusercontent.com/44301655/185991446-00c48760-830d-45af-9a5c-ba803d109aa1.png)
-
 ![image](https://user-images.githubusercontent.com/44301655/185991513-66de0b16-2319-4a11-9f8c-0db92d7c3e31.png)
+![image](https://user-images.githubusercontent.com/44301655/186019071-a3c8495d-26e3-4d52-9a20-0d89f9ebe710.png)
+![image](https://user-images.githubusercontent.com/44301655/186019095-0ec7ef1b-7601-42ab-b77d-da5f2467ba38.png)
+![image](https://user-images.githubusercontent.com/44301655/186019129-a11f1521-d7bc-4d8f-9feb-9c5119466768.png)
+![image](https://user-images.githubusercontent.com/44301655/186019144-8239ed25-671e-49c7-ba4a-95662319cb24.png)
 
 ## Credits
 @DmbassEros for help in the initial CSS and synthwave animations. 
